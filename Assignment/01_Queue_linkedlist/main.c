@@ -9,7 +9,7 @@ queue*rear = NULL;
 void create(){
     front=(queue*)malloc(sizeof(queue));
 }
-void enqueue(int x){ //insertion
+void enqueue(int x){ 
     queue*t = (queue*)malloc(sizeof(queue));
     if(t==NULL)
     printf("Queue Full");
