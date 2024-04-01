@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-typedef struct q{
+typedef struct q{ 
         int data;
         struct q*next;
 }queue;
